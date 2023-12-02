@@ -1,4 +1,6 @@
-# hello-wayland
+# hello-wayer
+
+**This is a modified version of [hello-wayland](https://github.com/emersion/hello-wayland) to work with my [wayer compositor](https://github.com/lilyyllyyllyly/wayer).**
 
 A hello world Wayland client, 2018 edition.
 
