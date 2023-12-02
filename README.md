@@ -4,7 +4,7 @@
 
 A hello world Wayland client, 2018 edition.
 
-This is a simple client showing a picture. It uses the [xdg-shell] protocol.
+This is a simple client showing a picture. It **does not** use the [xdg-shell] protocol. (changed in fork)
 
 ## Dependencies
 
