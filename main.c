@@ -128,7 +128,8 @@ int main(int argc, char *argv[]) {
 	surface = wl_compositor_create_surface(compositor);
 	wl_surface_attach(surface, buffer, 0, 0);
 	wl_surface_commit(surface);
-
+	
+	wl_display_dispatch(display);
 	while (running) {
 		// This space intentionally left blank
 	}
