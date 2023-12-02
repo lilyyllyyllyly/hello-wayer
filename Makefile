@@ -8,9 +8,9 @@ WAYLAND_PROTOCOLS_DIR = $(shell $(PKG_CONFIG) wayland-protocols --variable=pkgda
 HEADERS=cat.h shm.h
 SOURCES=main.c shm.c
 
-all: hello-wayland
+all: hello-wayer
 
-hello-wayland: $(HEADERS) $(SOURCES)
+hello-wayer: $(HEADERS) $(SOURCES)
 	$(CC) $(CFLAGS) -o $@ $(SOURCES) -lrt $(WAYLAND_FLAGS)
 
 cat.h: cat.png
@@ -18,4 +18,4 @@ cat.h: cat.png
 
 .PHONY: clean
 clean:
-	$(RM) hello-wayland cat.h
+	$(RM) hello-wayer cat.h
